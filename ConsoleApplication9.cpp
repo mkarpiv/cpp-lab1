@@ -2,18 +2,18 @@
 
 int main(){
     int num;
-    std::cout << "enter number of rows: "; //ââåñòè ê-ñòü ğÿäê³â
+    std::cout << "enter number of rows: "; //Ğ²Ğ²Ğ¾Ğ´Ğ¸Ğ¼Ğ¾ Ğº-ÑÑ‚ÑŒ Ñ€ÑĞ´ĞºÑ–Ğ²
     std::cin >> num;
     for (int i = 0; i < num; i++) {
-        //âèâîäèìî ïğîá³ëè
+        //Ğ¿ĞµÑ€ÑˆĞ° Ñ‡Ğ°ÑÑ‚Ğ¸Ğ½Ğ°
         for (int j = 1; j <= num - i; j++) {
             std::cout << " ";
         }
-        //ïåğøà ÷àñòèíà ÿëèíêè ç ÷èñëàìè
+        //Ğ´Ñ€ÑƒĞ³Ğ° Ñ‡Ğ°ÑÑ‚Ğ¸Ğ½Ğ°
         for (int j = 0; j <= i; j++) {
             std::cout << j;
         }
-        //äğóãà ÷àñòèíà ÿëèíêè ç ç³ğî÷êàìè
+        //Ñ‚Ñ€ĞµÑ‚Ñ Ñ‡Ğ°ÑÑ‚Ğ¸Ğ½Ğ°
         for (int j = 0; j <= i - 1; j++) {
             std::cout << j;
         }
